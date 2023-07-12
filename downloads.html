@@ -17,13 +17,19 @@
       <li><a href="support.html">Support</a></li>
     </ul>
   </nav>
-  <h1>Starix Project</h1>
-  <h2>Project Luna, reimagined</h2>
-  <button onclick="location.href = 'downloads.html';" id="pure-material-button-outlined" class="pure-material-button-outlined" >Download!</button>
+  <h1>Download now!</h1>
+  <h2>Latest release: 0.1b1 (21H2)</h2>
+  <button onclick="location.href = 'www.example.com';" id="pure-material-button-outlined" class="pure-material-button-outlined" >Download!</button>
   <div class="ocean">
     <div class="wave"></div>
     <div class="wave"></div>
     <div class="wave"></div>
   </div>
+  <script>
+    document.getElementById("pure-material-button-outlined").addEventListener("click", myFunction);  
+    function myFunction() {  
+      window.location.href="https://example.com";  
+    }
+  </script>
 </body>
 </html>
